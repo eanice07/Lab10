@@ -25,6 +25,7 @@ class View:
         self.page.update()
 
     def load_interface(self):
+
         """ Crea e aggiunge gli elementi di UI alla pagina e la aggiorna. """
         # Intestazione
         self.txt_titolo = ft.Text(value="Gestione Rete Logistica", size=38, weight=ft.FontWeight.BOLD)
